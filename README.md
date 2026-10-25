@@ -1,8 +1,8 @@
-# Homli: trusted places that feel like home
+﻿# Homli: trusted places that feel like home
 
 A PG (paying guest) discovery app for people moving to Bengaluru. Search, compare and shortlist before you pack a single bag.
 
-**Live site:** https://shrutig7823.github.io/homli/ (the website, once this repository is published). It currently runs on built-in sample data in the browser. The backend in `server/` is built and tested but not deployed yet (see "Deploy").
+**Live site:** https://shrutig7823.github.io/Homli/ (the website, once this repository is published). It currently runs on built-in sample data in the browser. The backend in `server/` is built and tested but not deployed yet (see "Deploy").
 
 > This is a prototype. The 11 listings were compiled from firsthand information and public or official pages. Details can change, so every page tells you to confirm with the PG. Booking is a demo: nothing is sent to a PG and no payment is taken.
 
@@ -31,41 +31,41 @@ Someone moving to a new city has to piece a PG together from word of mouth, Goog
 
 ## Architecture
 ```
-Browser (client/) ──JSON over HTTPS──► Server (server/) ──► Postgres / SQLite
- pages, state, localStorage             routes → controllers → services → models
-                                              └──► Google Places API (key stays on the server)
+Browser (client/) â”€â”€JSON over HTTPSâ”€â”€â–º Server (server/) â”€â”€â–º Postgres / SQLite
+ pages, state, localStorage             routes â†’ controllers â†’ services â†’ models
+                                              â””â”€â”€â–º Google Places API (key stays on the server)
 ```
 Details and the reasons behind each choice: [docs/architecture.md](docs/architecture.md).
 
 ## Project layout
 ```
 homli/
-├── client/                 the website
-│   ├── index.html
-│   ├── photos/             photos used with each PG's permission
-│   ├── styles/             tokens.css (design system), global.css, components.css
-│   └── src/
-│       ├── pages/          pages.js (home, search, PG detail), lists.js (shortlist, compare), booking.js
-│       ├── components/     ui.js (cards, states, gallery)
-│       ├── services/       api.js (all server calls), search.js (smart search for the fake API)
-│       ├── utils/          store.js (localStorage, analytics events)
-│       ├── data/           data.js (the PG data)
-│       ├── config.js       API address (no secrets)
-│       └── app.js          router and event wiring
-├── server/
-│   ├── server.js           wires everything together
-│   ├── routes/             pgRoutes, bookingRoutes, photoRoutes
-│   ├── controllers/        read the request, call a service, send the answer
-│   ├── services/           searchService, pgService, bookingService, googlePlacesService
-│   ├── middleware/         cors, validateRequest, errorHandler, requestLogger
-│   ├── models/             pgModel, roomTypeModel, photoModel, bookingModel (the only SQL)
-│   ├── db/                 connection.js, schema.sql, seed.js, seed.json
-│   └── scripts/            export-seed, reseed, smoke
-├── docs/                   product-brief, architecture, user-flow, state-matrix, api-contracts
-├── tests/                  filters.test.js, booking.test.js, api.test.js
-├── .github/workflows/      pages.yml (publishes client/ to GitHub Pages)
-├── render.yaml             server deployment settings
-└── .env.example            the settings the server reads
+â”œâ”€â”€ client/                 the website
+â”‚   â”œâ”€â”€ index.html
+â”‚   â”œâ”€â”€ photos/             photos used with each PG's permission
+â”‚   â”œâ”€â”€ styles/             tokens.css (design system), global.css, components.css
+â”‚   â””â”€â”€ src/
+â”‚       â”œâ”€â”€ pages/          pages.js (home, search, PG detail), lists.js (shortlist, compare), booking.js
+â”‚       â”œâ”€â”€ components/     ui.js (cards, states, gallery)
+â”‚       â”œâ”€â”€ services/       api.js (all server calls), search.js (smart search for the fake API)
+â”‚       â”œâ”€â”€ utils/          store.js (localStorage, analytics events)
+â”‚       â”œâ”€â”€ data/           data.js (the PG data)
+â”‚       â”œâ”€â”€ config.js       API address (no secrets)
+â”‚       â””â”€â”€ app.js          router and event wiring
+â”œâ”€â”€ server/
+â”‚   â”œâ”€â”€ server.js           wires everything together
+â”‚   â”œâ”€â”€ routes/             pgRoutes, bookingRoutes, photoRoutes
+â”‚   â”œâ”€â”€ controllers/        read the request, call a service, send the answer
+â”‚   â”œâ”€â”€ services/           searchService, pgService, bookingService, googlePlacesService
+â”‚   â”œâ”€â”€ middleware/         cors, validateRequest, errorHandler, requestLogger
+â”‚   â”œâ”€â”€ models/             pgModel, roomTypeModel, photoModel, bookingModel (the only SQL)
+â”‚   â”œâ”€â”€ db/                 connection.js, schema.sql, seed.js, seed.json
+â”‚   â””â”€â”€ scripts/            export-seed, reseed, smoke
+â”œâ”€â”€ docs/                   product-brief, architecture, user-flow, state-matrix, api-contracts
+â”œâ”€â”€ tests/                  filters.test.js, booking.test.js, api.test.js
+â”œâ”€â”€ .github/workflows/      pages.yml (publishes client/ to GitHub Pages)
+â”œâ”€â”€ render.yaml             server deployment settings
+â””â”€â”€ .env.example            the settings the server reads
 ```
 
 ## Run it on your laptop
@@ -108,4 +108,4 @@ _Write this yourself. A good version covers: how a request travels from a click 
 Login, a real booking handoff to PGs, meaning-based (AI) search, exact addresses, analytics collection, moderation. See [docs/architecture.md](docs/architecture.md).
 
 ## Docs
-[Product brief](docs/product-brief.md) · [Architecture](docs/architecture.md) · [User flow](docs/user-flow.md) · [States and edge cases](docs/state-matrix.md) · [API contracts](docs/api-contracts.md)
+[Product brief](docs/product-brief.md) Â· [Architecture](docs/architecture.md) Â· [User flow](docs/user-flow.md) Â· [States and edge cases](docs/state-matrix.md) Â· [API contracts](docs/api-contracts.md)
