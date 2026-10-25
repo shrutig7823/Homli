@@ -1,0 +1,23 @@
+{
+  "name": "homli-server",
+  "version": "1.0.0",
+  "description": "Homli API: Node + Express, Postgres (hosted) or SQLite (local)",
+  "main": "server.js",
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "export-seed": "node scripts/export-seed.js",
+    "reseed": "node scripts/reseed.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.11"
+  }
+}

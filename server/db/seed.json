@@ -1,0 +1,735 @@
+{
+  "areas": [
+    {
+      "name": "Bellandur",
+      "aliases": [
+        "green glen",
+        "green glen layout"
+      ]
+    },
+    {
+      "name": "HSR Layout",
+      "aliases": [
+        "hsr",
+        "hsr sector"
+      ]
+    },
+    {
+      "name": "Sarjapur",
+      "aliases": [
+        "sarjapur road",
+        "kasavanahalli",
+        "wipro"
+      ]
+    }
+  ],
+  "amenities": [
+    "Food",
+    "Electricity",
+    "Water",
+    "Wi-Fi",
+    "Housekeeping",
+    "Laundry",
+    "Indoor games",
+    "AC"
+  ],
+  "sourceLabels": {
+    "firsthand": "Firsthand info",
+    "official": "Official website",
+    "public": "Public listing"
+  },
+  "nearPlaces": [
+    [
+      "RMZ Ecospace (Bellandur)",
+      12.9262,
+      77.68
+    ],
+    [
+      "Embassy Tech Village",
+      12.9366,
+      77.6945
+    ],
+    [
+      "Bellandur",
+      12.9304,
+      77.6784
+    ],
+    [
+      "Green Glen Layout",
+      12.9262,
+      77.6775
+    ],
+    [
+      "HSR Layout",
+      12.9116,
+      77.6389
+    ],
+    [
+      "Silk Board Junction",
+      12.9174,
+      77.6229
+    ],
+    [
+      "Koramangala",
+      12.9352,
+      77.6245
+    ],
+    [
+      "BTM Layout",
+      12.9166,
+      77.6101
+    ],
+    [
+      "Sarjapur Road (Kasavanahalli)",
+      12.906,
+      77.679
+    ],
+    [
+      "Marathahalli",
+      12.9569,
+      77.7011
+    ],
+    [
+      "Indiranagar",
+      12.9784,
+      77.6408
+    ],
+    [
+      "Whitefield",
+      12.9698,
+      77.75
+    ],
+    [
+      "Electronic City",
+      12.8452,
+      77.6602
+    ]
+  ],
+  "pgs": [
+    {
+      "id": 201,
+      "name": "Ollie Coliving",
+      "area": "Green Glen Layout / Bellandur",
+      "areaKey": "Bellandur",
+      "gender": "",
+      "genderKey": "unknown",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "firsthand",
+      "sourceUrl": "",
+      "notes": "Single room price and listed inclusions shared firsthand.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "?",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "y",
+        "AC": "n"
+      },
+      "lat": 12.9262,
+      "lng": 77.6775
+    },
+    {
+      "id": 202,
+      "name": "Feb 30 Orchid",
+      "area": "Green Glen Layout / Bellandur",
+      "areaKey": "Bellandur",
+      "gender": "",
+      "genderKey": "unknown",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "firsthand",
+      "sourceUrl": "",
+      "notes": "All-inclusive amenities. Several single-room variants.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "y",
+        "AC": "n"
+      },
+      "lat": 12.9262,
+      "lng": 77.6775
+    },
+    {
+      "id": 203,
+      "name": "Feb 30 Wisteria",
+      "area": "Green Glen Layout / Bellandur",
+      "areaKey": "Bellandur",
+      "gender": "",
+      "genderKey": "unknown",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "firsthand",
+      "sourceUrl": "",
+      "notes": "Amenities are similar to Feb 30 Orchid.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "y",
+        "AC": "n"
+      },
+      "lat": 12.9262,
+      "lng": 77.6775
+    },
+    {
+      "id": 204,
+      "name": "Sloka Living",
+      "area": "Green Glen Layout / Bellandur",
+      "areaKey": "Bellandur",
+      "gender": "Co-ed",
+      "genderKey": "coed",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "firsthand",
+      "sourceUrl": "",
+      "notes": "Price and inclusions shared firsthand. Co-ed. Some online listings call it ladies-only, which is not correct.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "y",
+        "AC": "?"
+      },
+      "lat": 12.9262,
+      "lng": 77.6775
+    },
+    {
+      "id": 205,
+      "name": "Zolo Lakefront",
+      "area": "Bellandur",
+      "areaKey": "Bellandur",
+      "gender": "",
+      "genderKey": "unknown",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "firsthand",
+      "sourceUrl": "",
+      "notes": "Food is not included and there are no indoor games. Other common inclusions are included.",
+      "amenities": {
+        "Food": "n",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "n",
+        "AC": "n"
+      },
+      "lat": 12.9304,
+      "lng": 77.6784
+    },
+    {
+      "id": 206,
+      "name": "Stanza Living Shanghai House",
+      "area": "Green Glen Layout / Bellandur",
+      "areaKey": "Bellandur",
+      "gender": "Unisex",
+      "genderKey": "coed",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "official",
+      "sourceUrl": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-bellandur/co_ed/shanghai-house",
+      "notes": "Attached balcony and washroom, spacious cupboard. Washing machine not separately verified; laundry service listed.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "?",
+        "AC": "y"
+      },
+      "lat": 12.9262,
+      "lng": 77.6775
+    },
+    {
+      "id": 207,
+      "name": "Stanza Living Bochum House",
+      "area": "Bellandur",
+      "areaKey": "Bellandur",
+      "gender": "Unisex",
+      "genderKey": "coed",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "official",
+      "sourceUrl": "https://www.stanzaliving.com/bengaluru/pg-hostel-in-bellandur/co_ed/bochum-house",
+      "notes": "Attached washroom, spacious cupboard. Meals, Wi-Fi, laundry, housekeeping, security and water purifier listed.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "?",
+        "AC": "y"
+      },
+      "lat": 12.9304,
+      "lng": 77.6784
+    },
+    {
+      "id": 208,
+      "name": "FF21 SJR",
+      "area": "Sarjapur",
+      "areaKey": "Sarjapur",
+      "gender": "Co-living (mixed)",
+      "genderKey": "coed",
+      "deposit": "Zero-deposit option, or 2 months' rent",
+      "lockIn": "Details being verified",
+      "sourceType": "official",
+      "sourceUrl": "https://www.ff21.in/luxury-pg-in-bangalore",
+      "notes": "A Sarjapur property with a starting price. The exact single-room rate is not shown.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "y",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "y",
+        "AC": "?"
+      },
+      "lat": 12.906,
+      "lng": 77.679
+    },
+    {
+      "id": 212,
+      "name": "HelloWorld 1stMain",
+      "area": "HSR Layout, Sector 6",
+      "areaKey": "HSR Layout",
+      "gender": "",
+      "genderKey": "unknown",
+      "deposit": "1 month's rent",
+      "lockIn": "Details being verified",
+      "sourceType": "official",
+      "sourceUrl": "https://thehelloworld.com/coliving-in-bangalore/hsr/helloworld-1stmain",
+      "notes": "Club sharing, Classic sharing and private variants.",
+      "amenities": {
+        "Food": "?",
+        "Electricity": "?",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "?",
+        "AC": "?"
+      },
+      "lat": 12.9116,
+      "lng": 77.6389
+    },
+    {
+      "id": 213,
+      "name": "Local Colive & Work Sarjapur",
+      "area": "Kasavanahalli / Sarjapur",
+      "areaKey": "Sarjapur",
+      "gender": "Co-living",
+      "genderKey": "unknown",
+      "deposit": "1 month's rent (room-specific deposits listed)",
+      "lockIn": "Details being verified",
+      "sourceType": "public",
+      "sourceUrl": "https://www.gopgo.in/bengaluru/kasavanahalli-village-varthur-hobli-bengaluru/pg/18358-local-colive-work-sarjapur/pgo-properties",
+      "notes": "Food is not bundled (about ₹3,000 a month if you add it) and electricity is charged extra. Non-AC rooms.",
+      "amenities": {
+        "Food": "n",
+        "Electricity": "n",
+        "Water": "y",
+        "Wi-Fi": "y",
+        "Housekeeping": "y",
+        "Laundry": "y",
+        "Indoor games": "y",
+        "AC": "n"
+      },
+      "lat": 12.906,
+      "lng": 77.679
+    },
+    {
+      "id": 214,
+      "name": "Zolo Estonia C",
+      "area": "Sarjapur",
+      "areaKey": "Sarjapur",
+      "gender": "Co-living",
+      "genderKey": "unknown",
+      "deposit": "Details being verified",
+      "lockIn": "Details being verified",
+      "sourceType": "official",
+      "sourceUrl": "https://zolostays.com/pg-hostel-near-sarjapura-in-bangalore-zolo_estonia_c-zoestc",
+      "notes": "Meals are included. Other details are being verified.",
+      "amenities": {
+        "Food": "y",
+        "Electricity": "?",
+        "Water": "?",
+        "Wi-Fi": "?",
+        "Housekeeping": "?",
+        "Laundry": "?",
+        "Indoor games": "?",
+        "AC": "?"
+      },
+      "lat": 12.906,
+      "lng": 77.679
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "pgId": 201,
+      "occupancyType": "Private",
+      "label": "Single room",
+      "monthlyRent": 24000,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 2,
+      "pgId": 202,
+      "occupancyType": "Private",
+      "label": "Single, inner balcony",
+      "monthlyRent": 25000,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 3,
+      "pgId": 202,
+      "occupancyType": "Private",
+      "label": "Single, standard",
+      "monthlyRent": 27000,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 4,
+      "pgId": 202,
+      "occupancyType": "Private",
+      "label": "Single, large + outside balcony",
+      "monthlyRent": 30000,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 5,
+      "pgId": 202,
+      "occupancyType": "Sharing",
+      "label": "Sharing",
+      "monthlyRent": 19000,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 6,
+      "pgId": 203,
+      "occupancyType": "Private",
+      "label": "Single room",
+      "monthlyRent": 26000,
+      "rentMax": 30000,
+      "priceKind": "range",
+      "inclusions": []
+    },
+    {
+      "id": 7,
+      "pgId": 204,
+      "occupancyType": "Private",
+      "label": "Single room",
+      "monthlyRent": 26000,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 8,
+      "pgId": 205,
+      "occupancyType": "Private",
+      "label": "Single room",
+      "monthlyRent": 24000,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 9,
+      "pgId": 206,
+      "occupancyType": "Private",
+      "label": "Single room",
+      "monthlyRent": 22599,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": [
+        "Attached balcony and washroom"
+      ]
+    },
+    {
+      "id": 10,
+      "pgId": 206,
+      "occupancyType": "Sharing",
+      "label": "Double sharing",
+      "monthlyRent": 13499,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 11,
+      "pgId": 206,
+      "occupancyType": "Sharing",
+      "label": "Triple sharing",
+      "monthlyRent": 13699,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 12,
+      "pgId": 207,
+      "occupancyType": "Private",
+      "label": "Single room",
+      "monthlyRent": 19699,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": [
+        "Attached washroom"
+      ]
+    },
+    {
+      "id": 13,
+      "pgId": 207,
+      "occupancyType": "Sharing",
+      "label": "Double sharing",
+      "monthlyRent": 10299,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 14,
+      "pgId": 208,
+      "occupancyType": "Unspecified",
+      "label": "Starting price (room type not specified)",
+      "monthlyRent": 17800,
+      "rentMax": null,
+      "priceKind": "from",
+      "inclusions": []
+    },
+    {
+      "id": 22,
+      "pgId": 212,
+      "occupancyType": "Private",
+      "label": "Private variants",
+      "monthlyRent": 27999,
+      "rentMax": 29999,
+      "priceKind": "range",
+      "inclusions": []
+    },
+    {
+      "id": 23,
+      "pgId": 212,
+      "occupancyType": "Sharing",
+      "label": "Club sharing",
+      "monthlyRent": 15999,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 24,
+      "pgId": 212,
+      "occupancyType": "Sharing",
+      "label": "Classic sharing",
+      "monthlyRent": 16999,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 25,
+      "pgId": 213,
+      "occupancyType": "Private",
+      "label": "Private room",
+      "monthlyRent": null,
+      "rentMax": null,
+      "priceKind": "unknown",
+      "inclusions": []
+    },
+    {
+      "id": 26,
+      "pgId": 213,
+      "occupancyType": "Sharing",
+      "label": "Twin Superior",
+      "monthlyRent": 14500,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 27,
+      "pgId": 213,
+      "occupancyType": "Sharing",
+      "label": "Twin Standard",
+      "monthlyRent": 13500,
+      "rentMax": null,
+      "priceKind": "exact",
+      "inclusions": []
+    },
+    {
+      "id": 28,
+      "pgId": 214,
+      "occupancyType": "Private",
+      "label": "Private room, starting price",
+      "monthlyRent": 12960,
+      "rentMax": null,
+      "priceKind": "from",
+      "inclusions": []
+    },
+    {
+      "id": 29,
+      "pgId": 214,
+      "occupancyType": "Sharing",
+      "label": "Two-sharing, starting price",
+      "monthlyRent": 6885,
+      "rentMax": null,
+      "priceKind": "from",
+      "inclusions": []
+    }
+  ],
+  "photos": {
+    "201": [
+      {
+        "file": "photos/201-1.jpg",
+        "credit": "Ollie (shared with Homli)"
+      }
+    ],
+    "202": [
+      {
+        "file": "photos/202-1.jpg",
+        "credit": "Feb 30 (shared with Homli)"
+      },
+      {
+        "file": "photos/202-2.jpg",
+        "credit": "Feb 30 (shared with Homli)"
+      },
+      {
+        "file": "photos/202-3.jpg",
+        "credit": "Feb 30 (shared with Homli)"
+      }
+    ],
+    "203": [
+      {
+        "file": "photos/203-1.jpg",
+        "credit": "Feb 30 (shared with Homli)"
+      },
+      {
+        "file": "photos/203-2.jpg",
+        "credit": "Feb 30 (shared with Homli)"
+      },
+      {
+        "file": "photos/203-3.jpg",
+        "credit": "Feb 30 (shared with Homli)"
+      }
+    ],
+    "204": [
+      {
+        "file": "photos/204-1.jpg",
+        "credit": "Sloka Living (shared with Homli)"
+      }
+    ],
+    "205": [
+      {
+        "file": "photos/205-1.jpg",
+        "credit": "Zolo (shared with Homli)"
+      }
+    ],
+    "206": [
+      {
+        "file": "photos/206-1.jpg",
+        "credit": "Stanza Living"
+      },
+      {
+        "file": "photos/206-2.jpg",
+        "credit": "Stanza Living"
+      },
+      {
+        "file": "photos/206-3.jpg",
+        "credit": "Stanza Living"
+      }
+    ],
+    "207": [
+      {
+        "file": "photos/207-1.jpg",
+        "credit": "Stanza Living"
+      },
+      {
+        "file": "photos/207-2.jpg",
+        "credit": "Stanza Living"
+      },
+      {
+        "file": "photos/207-3.jpg",
+        "credit": "Stanza Living"
+      }
+    ],
+    "208": [
+      {
+        "file": "photos/208-1.jpg",
+        "credit": "FF21 (video shared with Homli)"
+      },
+      {
+        "file": "photos/208-2.jpg",
+        "credit": "FF21 (video shared with Homli)"
+      },
+      {
+        "file": "photos/208-3.jpg",
+        "credit": "FF21 (video shared with Homli)"
+      }
+    ],
+    "212": [
+      {
+        "file": "photos/212-1.jpg",
+        "credit": "HelloWorld"
+      },
+      {
+        "file": "photos/212-2.jpg",
+        "credit": "HelloWorld"
+      },
+      {
+        "file": "photos/212-3.jpg",
+        "credit": "HelloWorld"
+      }
+    ],
+    "213": [
+      {
+        "file": "photos/213-1.jpg",
+        "credit": "Local Colive (via GoPGo listing)"
+      },
+      {
+        "file": "photos/213-2.jpg",
+        "credit": "Local Colive (via GoPGo listing)"
+      },
+      {
+        "file": "photos/213-3.jpg",
+        "credit": "Local Colive (via GoPGo listing)"
+      }
+    ],
+    "214": [
+      {
+        "file": "photos/214-1.jpg",
+        "credit": "Zolo Stays"
+      }
+    ]
+  }
+}

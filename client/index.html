@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homli: trusted places that feel like home</title>
+    <meta name="description" content="Homli helps you find, compare and shortlist PGs you can trust. Prototype. Listings compiled from public sources and firsthand notes.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/tokens.css?v=31">
+    <link rel="stylesheet" href="styles/global.css?v=31">
+    <link rel="stylesheet" href="styles/components.css?v=31">
+  </head>
+  <body>
+    <!-- The header, the page content and the sticky bar are filled in by JavaScript. -->
+    <header class="site-header" id="header"></header>
+    <main id="app"></main>
+    <div id="sticky-host"></div>
+    <footer class="site-footer">Homli is a prototype. Listings are compiled from public sources and firsthand notes; details are being verified, so confirm prices and availability with each PG. Photos and reviews are from Google Maps. No bookings or payments are real.</footer>
+
+    <!-- Order matters: each file can use the ones above it. -->
+    <!-- The ?v=1 is a version tag. Change it (v=2, v=3 ...) whenever you upload new files, so browsers fetch the new ones. -->
+    <script src="src/config.js?v=31"></script>
+    <script src="src/data/data.js?v=31"></script>
+    <script src="src/utils/store.js?v=31"></script>
+    <script src="src/services/search.js?v=31"></script>
+    <script src="src/services/api.js?v=31"></script>
+    <script src="src/components/ui.js?v=31"></script>
+    <script src="src/pages/pages.js?v=31"></script>
+    <script src="src/pages/lists.js?v=31"></script>
+    <script src="src/pages/booking.js?v=31"></script>
+    <script src="src/app.js?v=31"></script>
+  </body>
+</html>

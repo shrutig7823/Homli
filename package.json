@@ -1,0 +1,13 @@
+{
+  "name": "homli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Homli: trusted PG discovery. Client (plain JavaScript) + server (Node, Express, Postgres/SQLite).",
+  "scripts": {
+    "install:server": "npm --prefix server install",
+    "start": "npm --prefix server start",
+    "export-seed": "npm --prefix server run export-seed",
+    "smoke": "npm --prefix server run smoke",
+    "test": "node --test --test-force-exit tests/*.test.js"
+  }
+}

@@ -1,0 +1,19 @@
+# render.yaml: tells Render how to run the Homli API. (Optional: you can type the same into Render's website.)
+services:
+  - type: web
+    name: homli-api
+    runtime: node
+    rootDir: server
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: DATABASE_URL
+        sync: false          # paste this in Render's website, so the secret is never in GitHub
+      - key: ALLOWED_ORIGINS
+        value: https://shrutig7823.github.io
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false

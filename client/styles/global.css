@@ -1,0 +1,26 @@
+/* global.css: base rules for plain elements (page, headings, links, layout helpers). Uses the tokens. */
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--espresso);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1, h2, h3 { font-family: var(--font-heading); line-height: 1.2; margin: 0; }
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+p { margin: 0; }
+a { color: var(--terracotta); }
+.caption { font-size: 13px; color: var(--taupe); }
+.muted { color: var(--taupe); }
+.container { max-width: 1200px; margin: 0 auto; padding: var(--s4); }
+.stack > * + * { margin-top: var(--s4); }
+.row { display: flex; align-items: center; gap: var(--s3); flex-wrap: wrap; }
+.row.between { justify-content: space-between; }
+.icon { width: 20px; height: 20px; flex: none; }
+:focus-visible { outline: 3px solid var(--peach); outline-offset: 2px; }

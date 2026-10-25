@@ -1,0 +1,33 @@
+/* tokens.css: the design system's raw values (colours, spacing, corners, shadows, type).
+   Change a value here and the whole app follows. Nothing else in the project hard-codes these. */
+
+:root {
+  /* Colours */
+  --ivory: #FFF8EE;        /* page background (about 70%) */
+  --surface: #FFFDF9;      /* cards and header */
+  --beige: #F3E7D5;        /* secondary surfaces (about 20%) */
+  --terracotta: #B85C3F;   /* primary: main button, active, focus */
+  --terracotta-dark: #9A4B32;
+  --peach: #F5D4BE;        /* soft highlight */
+  --sage: #7D9278;         /* trust and positive status */
+  --sage-soft: #E6EDE3;
+  --sage-dark: #4F6B4B;
+  --espresso: #322923;     /* main text */
+  --taupe: #7A6C62;        /* secondary text */
+  --sand: #E4D5C3;         /* borders */
+  --error: #A33A2B;
+  --error-soft: #F8E3DE;
+
+  /* Spacing scale: use only these */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px;
+
+  /* Corners */
+  --r-input: 12px; --r-card: 20px; --r-search: 24px; --r-button: 14px;
+
+  /* Shadows: subtle, used sparingly */
+  --shadow: 0 6px 20px rgba(50, 41, 35, 0.08);
+
+  /* Type */
+  --font-heading: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
