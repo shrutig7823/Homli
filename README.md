@@ -2,7 +2,7 @@
 
 A PG (paying guest) discovery app for people moving to Bengaluru. Search, compare and shortlist before you pack a single bag.
 
-**Live site:** https://shrutig7823.github.io/Homli/ (the website, once this repository is published). It currently runs on built-in sample data in the browser. The backend in `server/` is built and tested but not deployed yet (see "Deploy").
+**Live site:** https://shrutig7823.github.io/Homli/ (the website, once this repository is published). The website talks to a real API (Node and Express) with a hosted Postgres database, deployed on Render and Neon free tiers. A free Render server sleeps when idle, so the first visit can take up to a minute to load.
 
 > This is a prototype. The 11 listings were compiled from firsthand information and public or official pages. Details can change, so every page tells you to confirm with the PG. Booking is a demo: nothing is sent to a PG and no payment is taken.
 
@@ -27,7 +27,7 @@ Someone moving to a new city has to piece a PG together from word of mouth, Goog
 | Database | Postgres (hosted, for deployment) or SQLite (on a laptop); the same SQL runs on both |
 | Photos and reviews | Google Places API (New), called only from the server |
 | Tests | Node's built-in test runner; a real Postgres engine (PGlite) inside the tests |
-| Hosting plan | GitHub Pages (client), Render and Neon free tiers (server and database) |
+| Hosting | GitHub Pages (client), Render free tier (server), Neon free tier (Postgres database) |
 
 ## Architecture
 ```
